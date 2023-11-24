@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <title>CSS Template</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/estils.css">
+
+</head>
+<body>
+  <header>
+    <h3>LOKI</h3>
+  </header>
+  <section>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inici</a></li>
+        <li><a href="temporades.html">Temporades</a></li>
+        <li><a href="actors.html">Actors</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a class="active" href="questionari.html">Qüestionari</a></li>
+      </ul>
+    </nav>
+    <article>
+      <form action="gracies.html" method="get" name="registrat" id="registrar">
+        <h1>Qüestionari</h1>
+        <fieldset>
+          <legend>LOKI</legend>
+          <label id="per_a_tu_quina_es_la_millor_temporada">¿Per a tu quina és la millor temporada?</label><br>
+          <input type="radio" id="temporada_1" value="temporada_1" name="resposta">Temporada 1<br>
+          <input type="radio" id="temporada_2" value="temporada_2" name="resposta">Temporada 2<br>
+          <br>
+          <label id="personatge_principal_favorit">¿Personatge principal favorit?</label><br>
+          <input type="checkbox" id="loki" value="loki">Loki<br>
+          <input type="checkbox" id="sylvie" value="sylvie">Sylvie<br>
+          <input type="checkbox" id="kang" value="kang">Kang<br>
+          <input type="checkbox" id="mobius" value="mobius">Mobius<br>
+          <br>
+          <label id="opinio_sobre_la_serie">Opinió sobre la sèrie</label><br>
+          <input type="text" id="opinio" placeholder="Opinió Personal"><br>
+          <br>
+          <button type="submit" id="submit">Enviar Qüestionari</button>
+          <button type="reset" id="reset">Cancel·lar</button>
+        </fieldset>
+      </form>
+    </article>
+  </section>
+  <footer>
+    <p>By: Fran Ruano</p>
+  </footer>
+</body>
+</html>
